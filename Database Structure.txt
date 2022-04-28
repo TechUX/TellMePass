@@ -1,0 +1,26 @@
+
+tellmepass          [ Main Database ]
+  |
+  |- user           [ Table for user Authentication ]
+  |  |- id
+  |  |- email
+  |  |- username
+  |  |- password
+  |
+  |- accounts       [ Table for storing user account Data ]
+  |  |- id
+  |  |- account name
+  |  |- email
+  |  |- phone
+  |  |- username
+  |  |- password
+  |    
+  |- notes          [ Table for storing user notes data ]
+  |  |- id
+  |  |- title
+  |  |- datetime
+  |  |- note
+  
+
+
+

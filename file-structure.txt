@@ -1,0 +1,48 @@
+Password Manager
+  |
+  |-- index.html ✓
+  |-- contact.html
+  |-- about.html
+  |-- team.html
+  |
+  |---- css
+  |	   |-- style.css ✓
+  |
+  |---- include
+  |    |-- header.html ✓
+  |	   |-- nav.html ✓
+  |	   |-- features.html ✓
+  |	   |-- announcement.html
+  |	   |-- team.html
+  |	   |-- footer.html ✓
+  |
+  |---- dashboard
+  |	   |-- index.html
+  |	   |-- profile.html
+  |      |
+  |	   |-- css
+  |      |    |-- style.css
+  |	   |
+  |	   |-- include
+  |      |    |-- nav.html
+  |      |    |-- footer.html
+  |      |    |-- announcement.html
+  |      |
+  |	   |-- notes
+  |      |    |-- index.html
+  |      |    |-- compose.html
+  |      |    |-- view.html
+  |      |
+  |	   |-- pwd
+  |      |    |-- index.html
+  |      |    |-- addpass.html
+  |      |    |-- viewpass.html
+  |
+  |---- accounts ✓
+  |	   |-- index.html ✓
+  |	   |-- login.html ✓
+  |	   |-- register.html ✓
+  |	   |
+  |	   |-- css ✓
+  |      |    |-- style.css ✓
+  
