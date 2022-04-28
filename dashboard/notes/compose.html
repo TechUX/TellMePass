@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width">
+		<title> Notes Making </title>
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
+		<script src="https://cdn.tiny.cloud/1/filezombnzeadh0in3gvfo25rih8g9eiqzukjxqvoablgjem/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+	</head>
+	<body>
+		<div class="content"> <center>
+			<div class="notes">
+                <h1> Compose Notes</h1>
+				<form method="post" action ="#">
+					<div class="title">
+						<input type="text" name="title" placeholder="title of the note" required>
+					</div>
+					<div class="body">
+						<textarea type="text" name="note" placeholder="notes content" required ></textarea>
+					</div>
+					<center>
+					<input type="submit" value="Save">
+					<input type ="reset" value="Clear All">
+					</center>
+				</form>
+			</div>
+		</div></center>
+		<script>
+			tinymce.init({
+			  selector: 'textarea',
+			  plugins: 'preview searchreplace autolink autosave save directionality code fullscreen image link media table pagebreak anchor insertdatetime advlist lists wordcount charmap quickbars emoticons codesample help',
+			  editimage_cors_hosts: ['picsum.photos'],
+			  menubar: 'insert format table help',
+			  toolbar_mode: 'floating',
+			  autosave_interval: '30s',
+			  autosave_restore_when_empty: true,
+			  toolbar: 'undo redo restoredraft | bold italic underline strikethrough codesample| searchreplace table link anchor| numlist bullist|fontsize blocks fontfamily| alignleft aligncenter alignright alignjustify | forecolor backcolor removeformat emoticons | insertfile image media|  ',
+			  help_tabs: [
+				'shortcuts', // the default shortcuts tab
+				{
+				  name: 'custom1', // new tab called custom1
+				  title: 'About',
+				  items: [
+					{
+					  type: 'htmlpanel',
+					  html: '<p><em><strong>TakeMyNotes </strong></em>is advanced notes taking and management platform which provides you advanced editor for storing creative notes.</p> <p>&nbsp;</p> <p>Try out the Mind Blowing platform and be creative.</p> <p>&nbsp;</p> <p>For any bug or support contact me.</p> <p><a href="mailto:deveshkumarsingh75@gmail.com">deveshkumarsingh75@gmail.com</a></p>',
+					}
+				  ]
+				},
+			  ],
+			});
+		  </script>
+	</body>   
+</html>   
