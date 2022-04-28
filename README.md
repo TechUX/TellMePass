@@ -1,5 +1,50 @@
+<!--
+Date : 03 March 2022<br>
+Time : 6:38 PM
+
+Author : _Devesh Kumar Singh_ <br>
+Email : deveshkumarsingh75@gmail.com <br>
+Location : India <br>
+
+Project Title : **Password Management and Notes Taking**
+-->
+
 # TellMePass
-Password Manager with Notes Making
+An advanced and effective Password Management and Notes Making platform. <br>
+Check out the awesome features<br>
+
+# Password Management
+- Password Saving with App Name
+- Saved Password Downloading
+- Password Generator
+- Password breaches Checker
+- Text Encryption
+
+# Notes Taking
+- Advanced WYSIYWIG editor for formatted Notes.
+- Add Images and Videos.
+- Build List and Tables easily within notes.
+- Share Notes via Link.
+- Encrypt and Share Sensitive Content.
+
+# Support
+If you like this project and want to modify it,  or wants to add any other features or found any bug, please let me know, I will be happy to assist you.<br>
+Thank you.
+
+# Author
+Author : _Devesh Kumar Singh_ <br>
+Email : deveshkumarsingh75@gmail.com <br>
+Location : India
+
+## Collabrators
+- Shekhar Kumar ( shekharkr14th@gmail.com )
+    - Contribution
+- Anand Kumar ( anandsonuaman@gmail.com )
+    - Contribution
+- Shivam Kumar ( pspipara@gmail.com )
+    - Contribution
+- Paramjeet Kaur ( paramjeet121kaur@gmail.com )
+    - Contribution
 
 ## File Structure
 ```
