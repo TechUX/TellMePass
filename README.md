@@ -1,42 +1,9 @@
+# TellMePass
+Password Manager with Notes Making
 
+## File Structure
 ```
-myown
-├─ about.php
-├─ accounts
-│  ├─ css
-│  │  └─ style.css
-│  ├─ index.php
-│  ├─ login.php
-│  └─ register.php
-├─ contact.php
-├─ css
-│  └─ style.css
-├─ dashboard
-│  ├─ css
-│  │  └─ style.css
-│  ├─ include
-│  ├─ index.html
-│  ├─ notes
-│  │  ├─ compose.html
-│  │  └─ index.html
-│  ├─ pwd
-│  └─ tools
-│     └─ pwdcheck.html
-├─ file-structure.txt
-├─ include
-│  ├─ features.html
-│  ├─ footer.html
-│  ├─ header.html
-│  ├─ nav.html
-│  ├─ picfeature.html
-│  └─ team.html
-├─ index.php
-├─ team.php
-└─ temp.html
-
-```
-```
-myown
+TellMePass
 ├─ 1649744241476.png
 ├─ about.php
 ├─ accounts
